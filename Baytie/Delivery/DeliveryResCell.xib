@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DeliveryResItem" rowHeight="113" id="KGk-i7-Jjw" customClass="DeliveryResCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="114.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tableItem_swip_img_green.png" id="qIM-Md-il5">
+                        <rect key="frame" x="4" y="5" width="312" height="108"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tableitem_flat_img.png" id="el3-ct-4in">
+                        <rect key="frame" x="4" y="5" width="310" height="108"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rating_3.png" id="6nQ-nd-re0">
+                        <rect key="frame" x="155" y="42" width="66" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="featured_red.png" id="CuN-bo-7pT">
+                        <rect key="frame" x="241" y="41" width="15" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="promo_blue.png" id="XfD-XI-ej0">
+                        <rect key="frame" x="266" y="40" width="20" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="payment_1_img.png" id="gjP-Sg-bQI">
+                        <rect key="frame" x="241" y="91" width="20" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="payment_2_img.png" id="KSl-lj-RRB">
+                        <rect key="frame" x="264" y="91" width="20" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="payment_3_img.png" id="bz8-Su-iY9">
+                        <rect key="frame" x="287" y="91" width="20" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P11-Do-XzT">
+                        <rect key="frame" x="146" y="19" width="161" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min. order:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eZb-ya-Wzt">
+                        <rect key="frame" x="155" y="60" width="54" height="10"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KD 5.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AL8-rF-srY">
+                        <rect key="frame" x="241" y="60" width="70" height="10"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30-40 mins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nuV-6f-0x8">
+                        <rect key="frame" x="241" y="76" width="70" height="10"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery Time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6FI-uR-NmZ">
+                        <rect key="frame" x="155" y="76" width="71" height="10"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2vX-hv-MJU">
+                        <rect key="frame" x="155" y="91" width="52" height="11"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" id="C4Y-qb-nnj">
+                        <rect key="frame" x="14" y="5" width="124" height="105"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="status_open_red.png" id="abb-Bg-3hf">
+                                <rect key="frame" x="5" y="8" width="10" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Busy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FYs-6w-g4Z">
+                                <rect key="frame" x="21" y="5" width="42" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="ABx-4S-JPW">
+                                <rect key="frame" x="2" y="23" width="121" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="restro_detault.png" id="lyD-kF-Qi4">
+                                <rect key="frame" x="3" y="24" width="119" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" misplaced="YES" id="xQW-vS-JaV">
+                        <rect key="frame" x="146" y="3" width="168" height="109"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tableItem_swip_img_green.png" id="O8d-bd-xnN">
+                                <rect key="frame" x="0.0" y="0.0" width="170" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3wM-hW-fka">
+                                <rect key="frame" x="15" y="47" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blank_star.png"/>
+                                <state key="selected" image="fill_star.png"/>
+                                <connections>
+                                    <action selector="onRateStarOne:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sSu-9J-BFU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Egm-ER-xhm">
+                                <rect key="frame" x="44" y="47" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blank_star.png"/>
+                                <state key="selected" image="fill_star.png"/>
+                                <connections>
+                                    <action selector="onRateStarTwo:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="RJj-P6-uSm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="S1r-8J-a4K">
+                                <rect key="frame" x="73" y="48" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blank_star.png"/>
+                                <state key="selected" image="fill_star.png"/>
+                                <connections>
+                                    <action selector="onRateStarThree:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rL1-km-xKl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="r6K-R8-men">
+                                <rect key="frame" x="102" y="47" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blank_star.png"/>
+                                <state key="selected" image="fill_star.png"/>
+                                <connections>
+                                    <action selector="onRateStarFour:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="5XW-IC-HO7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BdA-b7-4IJ">
+                                <rect key="frame" x="131" y="47" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blank_star.png"/>
+                                <state key="selected" image="fill_star.png"/>
+                                <connections>
+                                    <action selector="onRateStarFive:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="yUQ-C4-PRR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Like it? Rate it!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VCP-Kj-Qhs">
+                                <rect key="frame" x="36" y="21" width="99" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BB1-id-rfC">
+                                <rect key="frame" x="72" y="79" width="26" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_ok.png"/>
+                                <connections>
+                                    <action selector="onOkayForRating:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="3NT-Iv-1bF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="btnStarFive" destination="BdA-b7-4IJ" id="Wkh-SE-eti"/>
+                <outlet property="btnStarFour" destination="r6K-R8-men" id="VBq-36-U4K"/>
+                <outlet property="btnStarOne" destination="3wM-hW-fka" id="wAK-ff-0TQ"/>
+                <outlet property="btnStarThree" destination="S1r-8J-a4K" id="rh3-kf-P2X"/>
+                <outlet property="btnStarTwo" destination="Egm-ER-xhm" id="5iB-4Z-AYF"/>
+                <outlet property="lblDeliveryTime" destination="nuV-6f-0x8" id="5oc-kE-AFE"/>
+                <outlet property="lblMinOrder" destination="AL8-rF-srY" id="dng-UO-5rv"/>
+                <outlet property="lblRestroStatus" destination="FYs-6w-g4Z" id="hJo-RT-i8Z"/>
+                <outlet property="ratingView" destination="xQW-vS-JaV" id="T3e-Te-7Bo"/>
+                <outlet property="restroBowImage" destination="XfD-XI-ej0" id="i4c-3t-DfX"/>
+                <outlet property="restroFeaturedImage" destination="CuN-bo-7pT" id="FeL-pV-XL6"/>
+                <outlet property="restroLogo" destination="lyD-kF-Qi4" id="FDt-QT-8sG"/>
+                <outlet property="restroName" destination="P11-Do-XzT" id="BwY-bp-4bf"/>
+                <outlet property="restroPaymentC" destination="gjP-Sg-bQI" id="Ahv-BQ-Jrb"/>
+                <outlet property="restroPaymentD" destination="KSl-lj-RRB" id="Pt0-Kn-5lq"/>
+                <outlet property="restroPaymentK" destination="bz8-Su-iY9" id="7q8-H9-Kkd"/>
+                <outlet property="restroRatingImage" destination="6nQ-nd-re0" id="wcG-uv-Ec6"/>
+                <outlet property="restroStatusImage" destination="abb-Bg-3hf" id="JDn-35-H59"/>
+            </connections>
+            <point key="canvasLocation" x="-109" y="-33.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="blank_star.png" width="50" height="50"/>
+        <image name="btn_ok.png" width="50" height="30"/>
+        <image name="featured_red.png" width="50" height="50"/>
+        <image name="fill_star.png" width="50" height="50"/>
+        <image name="payment_1_img.png" width="80" height="60"/>
+        <image name="payment_2_img.png" width="80" height="60"/>
+        <image name="payment_3_img.png" width="80" height="60"/>
+        <image name="promo_blue.png" width="80" height="60"/>
+        <image name="rating_3.png" width="166" height="30"/>
+        <image name="restro_detault.png" width="280" height="200"/>
+        <image name="status_open_red.png" width="50" height="50"/>
+        <image name="tableItem_swip_img_green.png" width="400" height="300"/>
+        <image name="tableitem_flat_img.png" width="400" height="300"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

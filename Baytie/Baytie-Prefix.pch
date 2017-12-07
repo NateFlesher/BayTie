@@ -1,0 +1,25 @@
+//
+//  Baytie-Prefix.pch
+//  Baytie
+//
+//  Created by stepanekdavid on 9/13/16.
+//  Copyright © 2016 Lovisa. All rights reserved.
+//
+
+#ifndef Baytie_Prefix_h
+#define Baytie_Prefix_h
+
+#define APP_TITLE                       @"Baytie"
+#define APPDELEGATE [AppDelegate sharedDelegate]
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import <CoreData/CoreData.h>
+#import "MBProgressHUD.h"
+#import "Global.h"
+#import "Communication.h"
+#endif
+
+#endif /* Baytie_Prefix_h */

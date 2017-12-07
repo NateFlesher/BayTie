@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0062D17AB7F078987EB660F0C57880B1 /* RATreeNode_ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CDAA66613940476D7AA2B6AD716E0C /* RATreeNode_ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		01E8E6F31795B9BD310DD5ED2ABD80F1 /* RABatchChangeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D55F9C5DB341EF88C9C6E76EE619EB6A /* RABatchChangeEntity.m */; };
+		029B3BF497124A842F7C15227AF888C2 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DF4F6B9AB21E46376AED5B42C8A92A /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B740A27D1C3C70A5BBD876B54F72EFC /* RATreeView+TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C608281EFFE7EC9DE73258176FA0E298 /* RATreeView+TableViewDataSource.m */; };
+		107DABF47E76C8C24B286C7468C8D2E4 /* RATreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C98F60AB1A0EC1769076843651FF36 /* RATreeNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11E70D6C58381AFAE7A8FA895238EF34 /* RATreeView+TableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D4C568639E00F84DB09BB52C133CA3 /* RATreeView+TableViewDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		191086FB1A2DEC24E50AC05E5C9DE2E6 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD74C1D567196F652E7F3AB1DEB6A79 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */; };
+		1DAA88249282226D25BF6F9B11BDAE62 /* RATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2A813CB34207C377270823D400896C /* RATableView.m */; };
+		1E9B124DFB93D3C6B106C90DD4BFCBD9 /* RABatchChangeEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DE6C90A9CAF9A9583F528F8291CF12 /* RABatchChangeEntity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20D5BFA6127B1DD23EA58C5A71DDFE0C /* Pods-Baytie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4D3138682FC76C9E5767A44EF59086 /* Pods-Baytie-dummy.m */; };
+		2CA6EA9C94E0E9B8F38C960F9A9C6695 /* RATreeView_ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E83F9442A2237F835F83756B3604619D /* RATreeView_ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		305077A331177D3C83694D66714EAB0F /* RATreeView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 94DE8DB1394B8B954B2F2A77A11443C4 /* RATreeView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37CD9C2BE358E68C7EE466A131F6318B /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 824F5D7AD86096C628BEB36C53E0CCB7 /* SocketRocket-dummy.m */; };
+		42E7A08F57866318E8EB2C8FDB8640B8 /* RATreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 93471A415EF89D3F7331212046308D10 /* RATreeNode.m */; };
+		478F5B8D98F77FD4B02295BE8D718579 /* RATreeNodeCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B489CE8D793BED9552D734361DF0A3E1 /* RATreeNodeCollectionController.m */; };
+		47C9E7345DC9962ABD842DC83B1368B6 /* RABatchChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B582EFD1CB427BFCAAF3DBDFAAFD0 /* RABatchChanges.m */; };
+		4FC895916A74688AC3629FBBFCEDE57A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC76A27B6AC5FF40DBB7B0E2B8BF8014 /* Security.framework */; };
+		51C3FA722315E12D2DBA7E90A717D19B /* RATreeNodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931047ACCABF3984B6A6728E20FFEE5B /* RATreeNodeController.m */; };
+		51D115FAC604890417329AB4B629E9F3 /* RATreeView+TableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 54CE62511F80DE9556DAE12BF685883D /* RATreeView+TableViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		679C3FD831DEE47B153A1E861E7D8F33 /* RATreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F4E76B11FC50282515F2536B05988C /* RATreeView.m */; };
+		704696516120FAF2458D186C0AFB841F /* RATreeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEDACF6A6EB3A1492D51BFBE83833E1 /* RATreeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75CDECB8D4A665251BFAEA20F76E99ED /* RATreeView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = C57714CEF4F030CBA8A67C6474949F54 /* RATreeView+Private.m */; };
+		77F40320D360F372FA420C73056A8614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
+		78BF6471D30D330C0F145BF74D16FF84 /* Pods-Baytie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E35EC8D6009DB43201C94930EC27955 /* Pods-Baytie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B365475B9F5707CF5576DDE6A01E15C /* RATreeNodeItem+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A795DA79BA3363938B6EC2CD9231965 /* RATreeNodeItem+Private.m */; };
+		7BAC50B86A2D8B8C2216AD562C1493DC /* RATreeNodeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 79866FE490C7B38A8838950B4BAF842A /* RATreeNodeItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		830C2D6CB6168053AEFF8931B3CD9FC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
+		8B5DBDCBEF9C64B20B49650E83C66862 /* RATreeNodeCollectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 729BEA65FC41D008C5480F1125757EA5 /* RATreeNodeCollectionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95B2D04A6D7603B0CF9ED2F3F1856C44 /* RATreeNodeController.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDE99F504AF59ED92A1FB3ECDC4365D /* RATreeNodeController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B9B5673D5C7B5C1807A315AE6370D34 /* RATreeNodeItem+ClassExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 749D9A9C128352811060D8615158C15A /* RATreeNodeItem+ClassExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8FC5026376B35B270382914A6992B96 /* RATreeNodeItem+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C2063706698C21A1CD8D179255DB579F /* RATreeNodeItem+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AAAB4172214ABB8155A13487E968AE5C /* RATreeView+RATreeNodeCollectionControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB56F0C37CCEF7D00E5EFB3A73DF8CB /* RATreeView+RATreeNodeCollectionControllerDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ABB49FC4B0169A7417023C6ED68442E5 /* RATreeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1335E53F45F9A414C658D676EB48E1D0 /* RATreeView-dummy.m */; };
+		ABBBAAE7A62F2F23A3B2E05F30BAB9F6 /* RATreeView+TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B83499F09B63790146ED30811400385D /* RATreeView+TableViewDelegate.m */; };
+		B9FED60D2585F9C064D90BAD2ABABBC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */; };
+		BD3DE3860078E088FF35F6F3C684A21C /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AEFD719F0E9BA9A202F3FA252FF72161 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF37CE96DEC30F259C7545D996B1DA71 /* RABatchChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = F4418B19B643D41490B4C6C437506BAD /* RABatchChanges.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5BA7CEAD1A1CA0AE4DA3A4CFBCE8ED5 /* RATreeView+Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = B9110D6FB4BA39C72016AC7D300AE2BE /* RATreeView+Enums.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C64A41C6B7134734AD130808C4DF7A84 /* RATreeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EF2FE30EED767723D2875B217561BD /* RATreeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA2310208E875614914FA9F37C9FFC08 /* RATreeNodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 433A9CF647AC9D583830E18CC7DF993A /* RATreeNodeItem.m */; };
+		CE3AF919D48823F3DF2FFE197940A33B /* RATableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9D3B09664AA6C395929143B50A07C9 /* RATableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E51AD448F0965AFB46991830FC8CD3BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898EE84856EB5E52F00A964689E9F67E /* CFNetwork.framework */; };
+		EF2AB7C3F0D79DB7B1F9111576DB7381 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4AC034434B0C8762878F03695D6A01 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00BF79A5B5DFCC766F9D0243BF28C98 /* RATreeView+Enums.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9943755D8100FEF0C58F4018607EA2 /* RATreeView+Enums.m */; };
+		F0E4DF053D3814EA40346B7C97F5C264 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5AF2EB5DD073EF1090761AF85D325 /* SRWebSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E3C423AAB14BA0DCDAB90077933B95C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE285746A100A648331D19E4DC09C19F;
+			remoteInfo = RATreeView;
+		};
+		29F1216EC1BBF099E2C83559C8886CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD96DFEDF29BFE2174B3993A8EA2148;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008FFDAB4956A43DCE2AD6EA71C6F6FF /* Pods_Baytie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Baytie.framework; path = "Pods-Baytie.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B0E2AC2A98653D673EDF0E06E75F68 /* Pods-Baytie-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Baytie-resources.sh"; sourceTree = "<group>"; };
+		1335E53F45F9A414C658D676EB48E1D0 /* RATreeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RATreeView-dummy.m"; sourceTree = "<group>"; };
+		15F4E76B11FC50282515F2536B05988C /* RATreeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeView.m; path = RATreeView/RATreeView/RATreeView.m; sourceTree = "<group>"; };
+		16CDAA66613940476D7AA2B6AD716E0C /* RATreeNode_ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNode_ClassExtension.h; path = "RATreeView/RATreeView/Private Files/RATreeNode_ClassExtension.h"; sourceTree = "<group>"; };
+		21EF2FE30EED767723D2875B217561BD /* RATreeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RATreeView-umbrella.h"; sourceTree = "<group>"; };
+		34775DCD863ACA4B64EBFD00947D37B6 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C34A59962DDE7461691954172535DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2A813CB34207C377270823D400896C /* RATableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATableView.m; path = "RATreeView/RATreeView/Private Files/RATableView.m"; sourceTree = "<group>"; };
+		3C3E6EF61B13E2AF3557EFEE205F6865 /* Pods-Baytie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Baytie.modulemap"; sourceTree = "<group>"; };
+		3FE398EB2BA34BD6EEE8A30C96764F42 /* RATreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RATreeView.framework; path = RATreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		433A9CF647AC9D583830E18CC7DF993A /* RATreeNodeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeItem.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem.m"; sourceTree = "<group>"; };
+		45C98F60AB1A0EC1769076843651FF36 /* RATreeNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNode.h; path = "RATreeView/RATreeView/Private Files/RATreeNode.h"; sourceTree = "<group>"; };
+		49DE6C90A9CAF9A9583F528F8291CF12 /* RABatchChangeEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RABatchChangeEntity.h; path = "RATreeView/RATreeView/Private Files/RABatchChangeEntity.h"; sourceTree = "<group>"; };
+		4A795DA79BA3363938B6EC2CD9231965 /* RATreeNodeItem+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeNodeItem+Private.m"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+Private.m"; sourceTree = "<group>"; };
+		4BD74C1D567196F652E7F3AB1DEB6A79 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+RATreeNodeCollectionControllerDataSource.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+RATreeNodeCollectionControllerDataSource.m"; sourceTree = "<group>"; };
+		54CE62511F80DE9556DAE12BF685883D /* RATreeView+TableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+TableViewDelegate.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDelegate.h"; sourceTree = "<group>"; };
+		5B376ADD268416C4A96BA7A20D89ADF7 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		5D5B582EFD1CB427BFCAAF3DBDFAAFD0 /* RABatchChanges.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RABatchChanges.m; path = "RATreeView/RATreeView/Private Files/RABatchChanges.m"; sourceTree = "<group>"; };
+		5DE5AF2EB5DD073EF1090761AF85D325 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		6B9943755D8100FEF0C58F4018607EA2 /* RATreeView+Enums.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+Enums.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+Enums.m"; sourceTree = "<group>"; };
+		6FB56F0C37CCEF7D00E5EFB3A73DF8CB /* RATreeView+RATreeNodeCollectionControllerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+RATreeNodeCollectionControllerDataSource.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+RATreeNodeCollectionControllerDataSource.h"; sourceTree = "<group>"; };
+		707FD83F3E37C15E0028869854FC215C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729BEA65FC41D008C5480F1125757EA5 /* RATreeNodeCollectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeCollectionController.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeCollectionController.h"; sourceTree = "<group>"; };
+		749D9A9C128352811060D8615158C15A /* RATreeNodeItem+ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeNodeItem+ClassExtension.h"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+ClassExtension.h"; sourceTree = "<group>"; };
+		76B005B3011A525C775E29BF67F090A8 /* RATreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RATreeView-prefix.pch"; sourceTree = "<group>"; };
+		7809A6A24C8CF02FE88FB733533092CA /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		79866FE490C7B38A8838950B4BAF842A /* RATreeNodeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeItem.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem.h"; sourceTree = "<group>"; };
+		7AEDACF6A6EB3A1492D51BFBE83833E1 /* RATreeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeView.h; path = RATreeView/RATreeView/RATreeView.h; sourceTree = "<group>"; };
+		7EC0F1A13A85E875F0FE5723E7DFE970 /* Pods-Baytie-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Baytie-frameworks.sh"; sourceTree = "<group>"; };
+		824F5D7AD86096C628BEB36C53E0CCB7 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		898EE84856EB5E52F00A964689E9F67E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8C9D3B09664AA6C395929143B50A07C9 /* RATableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATableView.h; path = "RATreeView/RATreeView/Private Files/RATableView.h"; sourceTree = "<group>"; };
+		8E4AC034434B0C8762878F03695D6A01 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
+		931047ACCABF3984B6A6728E20FFEE5B /* RATreeNodeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeController.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeController.m"; sourceTree = "<group>"; };
+		93471A415EF89D3F7331212046308D10 /* RATreeNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNode.m; path = "RATreeView/RATreeView/Private Files/RATreeNode.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DE8DB1394B8B954B2F2A77A11443C4 /* RATreeView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+Private.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+Private.h"; sourceTree = "<group>"; };
+		9E35EC8D6009DB43201C94930EC27955 /* Pods-Baytie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Baytie-umbrella.h"; sourceTree = "<group>"; };
+		9EAD0125C19B29F1EB50A3875FEF57C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE08A7E690EC4279A57AE8144FF012B5 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		AE600275FBD9182B4F4F3AD215B1EC20 /* RATreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RATreeView.xcconfig; sourceTree = "<group>"; };
+		AEFD719F0E9BA9A202F3FA252FF72161 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		B489CE8D793BED9552D734361DF0A3E1 /* RATreeNodeCollectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RATreeNodeCollectionController.m; path = "RATreeView/RATreeView/Private Files/RATreeNodeCollectionController.m"; sourceTree = "<group>"; };
+		B5D4C568639E00F84DB09BB52C133CA3 /* RATreeView+TableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+TableViewDataSource.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDataSource.h"; sourceTree = "<group>"; };
+		B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B83499F09B63790146ED30811400385D /* RATreeView+TableViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+TableViewDelegate.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDelegate.m"; sourceTree = "<group>"; };
+		B9110D6FB4BA39C72016AC7D300AE2BE /* RATreeView+Enums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeView+Enums.h"; path = "RATreeView/RATreeView/Private Files/RATreeView+Enums.h"; sourceTree = "<group>"; };
+		BC76A27B6AC5FF40DBB7B0E2B8BF8014 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C2063706698C21A1CD8D179255DB579F /* RATreeNodeItem+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RATreeNodeItem+Private.h"; path = "RATreeView/RATreeView/Private Files/RATreeNodeItem+Private.h"; sourceTree = "<group>"; };
+		C57714CEF4F030CBA8A67C6474949F54 /* RATreeView+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+Private.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+Private.m"; sourceTree = "<group>"; };
+		C608281EFFE7EC9DE73258176FA0E298 /* RATreeView+TableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RATreeView+TableViewDataSource.m"; path = "RATreeView/RATreeView/Private Files/RATreeView+TableViewDataSource.m"; sourceTree = "<group>"; };
+		C8DF4F6B9AB21E46376AED5B42C8A92A /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		D55F9C5DB341EF88C9C6E76EE619EB6A /* RABatchChangeEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RABatchChangeEntity.m; path = "RATreeView/RATreeView/Private Files/RABatchChangeEntity.m"; sourceTree = "<group>"; };
+		E6BCE98EE3754D740328E7C1D59A99E0 /* Pods-Baytie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Baytie.debug.xcconfig"; sourceTree = "<group>"; };
+		E716F20B206187C73F11BD21081CC9ED /* Pods-Baytie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Baytie.release.xcconfig"; sourceTree = "<group>"; };
+		E83F9442A2237F835F83756B3604619D /* RATreeView_ClassExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeView_ClassExtension.h; path = "RATreeView/RATreeView/Private Files/RATreeView_ClassExtension.h"; sourceTree = "<group>"; };
+		EA4D3138682FC76C9E5767A44EF59086 /* Pods-Baytie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Baytie-dummy.m"; sourceTree = "<group>"; };
+		EB31D731BE12615AD2001E7FF84D4C1D /* RATreeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RATreeView.modulemap; sourceTree = "<group>"; };
+		EBDE99F504AF59ED92A1FB3ECDC4365D /* RATreeNodeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RATreeNodeController.h; path = "RATreeView/RATreeView/Private Files/RATreeNodeController.h"; sourceTree = "<group>"; };
+		F4418B19B643D41490B4C6C437506BAD /* RABatchChanges.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RABatchChanges.h; path = "RATreeView/RATreeView/Private Files/RABatchChanges.h"; sourceTree = "<group>"; };
+		F4B5EC3B3FDC239C78F53BCD3760EAC0 /* Pods-Baytie-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Baytie-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD187376D871723B6D0EF669ED751DE2 /* Pods-Baytie-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Baytie-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7684224F354FC36C052C07AA507D97CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F40320D360F372FA420C73056A8614 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CB932F514E845C5E339DA8C0E3F0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FED60D2585F9C064D90BAD2ABABBC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEBAF668DF3CBA02DF63A997B5E484B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51AD448F0965AFB46991830FC8CD3BF /* CFNetwork.framework in Frameworks */,
+				830C2D6CB6168053AEFF8931B3CD9FC6 /* Foundation.framework in Frameworks */,
+				4FC895916A74688AC3629FBBFCEDE57A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F013CD4971E0E9BE6510AF6D4A0430 /* Pods-Baytie */ = {
+			isa = PBXGroup;
+			children = (
+				707FD83F3E37C15E0028869854FC215C /* Info.plist */,
+				3C3E6EF61B13E2AF3557EFEE205F6865 /* Pods-Baytie.modulemap */,
+				FD187376D871723B6D0EF669ED751DE2 /* Pods-Baytie-acknowledgements.markdown */,
+				F4B5EC3B3FDC239C78F53BCD3760EAC0 /* Pods-Baytie-acknowledgements.plist */,
+				EA4D3138682FC76C9E5767A44EF59086 /* Pods-Baytie-dummy.m */,
+				7EC0F1A13A85E875F0FE5723E7DFE970 /* Pods-Baytie-frameworks.sh */,
+				04B0E2AC2A98653D673EDF0E06E75F68 /* Pods-Baytie-resources.sh */,
+				9E35EC8D6009DB43201C94930EC27955 /* Pods-Baytie-umbrella.h */,
+				E6BCE98EE3754D740328E7C1D59A99E0 /* Pods-Baytie.debug.xcconfig */,
+				E716F20B206187C73F11BD21081CC9ED /* Pods-Baytie.release.xcconfig */,
+			);
+			name = "Pods-Baytie";
+			path = "Target Support Files/Pods-Baytie";
+			sourceTree = "<group>";
+		};
+		054907C56938CF5D0C289318BE51A4AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD0125C19B29F1EB50A3875FEF57C8 /* Info.plist */,
+				EB31D731BE12615AD2001E7FF84D4C1D /* RATreeView.modulemap */,
+				AE600275FBD9182B4F4F3AD215B1EC20 /* RATreeView.xcconfig */,
+				1335E53F45F9A414C658D676EB48E1D0 /* RATreeView-dummy.m */,
+				76B005B3011A525C775E29BF67F090A8 /* RATreeView-prefix.pch */,
+				21EF2FE30EED767723D2875B217561BD /* RATreeView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RATreeView";
+			sourceTree = "<group>";
+		};
+		08C937514934CCED3E409A309E5A3263 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD719F0E9BA9A202F3FA252FF72161 /* SocketRocket.h */,
+				C8DF4F6B9AB21E46376AED5B42C8A92A /* SRWebSocket.h */,
+				5DE5AF2EB5DD073EF1090761AF85D325 /* SRWebSocket.m */,
+				7E372B8BE8C939648D445CF8FF220835 /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A9D6FF81BFBB1B195CCEBC8D335E2CF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A9D6FF81BFBB1B195CCEBC8D335E2CF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				898EE84856EB5E52F00A964689E9F67E /* CFNetwork.framework */,
+				B5D67AC30769732F1FF0BD1854B2E225 /* Foundation.framework */,
+				BC76A27B6AC5FF40DBB7B0E2B8BF8014 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5419AE7A09289DEE80B38F503A43E527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008FFDAB4956A43DCE2AD6EA71C6F6FF /* Pods_Baytie.framework */,
+				3FE398EB2BA34BD6EEE8A30C96764F42 /* RATreeView.framework */,
+				34775DCD863ACA4B64EBFD00947D37B6 /* SocketRocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DAE62AD0D0A5456257CFBF8AA637FA5 /* RATreeView */ = {
+			isa = PBXGroup;
+			children = (
+				49DE6C90A9CAF9A9583F528F8291CF12 /* RABatchChangeEntity.h */,
+				D55F9C5DB341EF88C9C6E76EE619EB6A /* RABatchChangeEntity.m */,
+				F4418B19B643D41490B4C6C437506BAD /* RABatchChanges.h */,
+				5D5B582EFD1CB427BFCAAF3DBDFAAFD0 /* RABatchChanges.m */,
+				8C9D3B09664AA6C395929143B50A07C9 /* RATableView.h */,
+				3C2A813CB34207C377270823D400896C /* RATableView.m */,
+				45C98F60AB1A0EC1769076843651FF36 /* RATreeNode.h */,
+				93471A415EF89D3F7331212046308D10 /* RATreeNode.m */,
+				16CDAA66613940476D7AA2B6AD716E0C /* RATreeNode_ClassExtension.h */,
+				729BEA65FC41D008C5480F1125757EA5 /* RATreeNodeCollectionController.h */,
+				B489CE8D793BED9552D734361DF0A3E1 /* RATreeNodeCollectionController.m */,
+				EBDE99F504AF59ED92A1FB3ECDC4365D /* RATreeNodeController.h */,
+				931047ACCABF3984B6A6728E20FFEE5B /* RATreeNodeController.m */,
+				79866FE490C7B38A8838950B4BAF842A /* RATreeNodeItem.h */,
+				433A9CF647AC9D583830E18CC7DF993A /* RATreeNodeItem.m */,
+				749D9A9C128352811060D8615158C15A /* RATreeNodeItem+ClassExtension.h */,
+				C2063706698C21A1CD8D179255DB579F /* RATreeNodeItem+Private.h */,
+				4A795DA79BA3363938B6EC2CD9231965 /* RATreeNodeItem+Private.m */,
+				7AEDACF6A6EB3A1492D51BFBE83833E1 /* RATreeView.h */,
+				15F4E76B11FC50282515F2536B05988C /* RATreeView.m */,
+				B9110D6FB4BA39C72016AC7D300AE2BE /* RATreeView+Enums.h */,
+				6B9943755D8100FEF0C58F4018607EA2 /* RATreeView+Enums.m */,
+				94DE8DB1394B8B954B2F2A77A11443C4 /* RATreeView+Private.h */,
+				C57714CEF4F030CBA8A67C6474949F54 /* RATreeView+Private.m */,
+				6FB56F0C37CCEF7D00E5EFB3A73DF8CB /* RATreeView+RATreeNodeCollectionControllerDataSource.h */,
+				4BD74C1D567196F652E7F3AB1DEB6A79 /* RATreeView+RATreeNodeCollectionControllerDataSource.m */,
+				B5D4C568639E00F84DB09BB52C133CA3 /* RATreeView+TableViewDataSource.h */,
+				C608281EFFE7EC9DE73258176FA0E298 /* RATreeView+TableViewDataSource.m */,
+				54CE62511F80DE9556DAE12BF685883D /* RATreeView+TableViewDelegate.h */,
+				B83499F09B63790146ED30811400385D /* RATreeView+TableViewDelegate.m */,
+				E83F9442A2237F835F83756B3604619D /* RATreeView_ClassExtension.h */,
+				054907C56938CF5D0C289318BE51A4AE /* Support Files */,
+			);
+			name = RATreeView;
+			path = RATreeView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				BFAAAC5EDAB08163C2FFC6D71B01D1EF /* Pods */,
+				5419AE7A09289DEE80B38F503A43E527 /* Products */,
+				94AF6717EBD09CC130C1448EC070F459 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E372B8BE8C939648D445CF8FF220835 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C34A59962DDE7461691954172535DD /* Info.plist */,
+				7809A6A24C8CF02FE88FB733533092CA /* SocketRocket.modulemap */,
+				5B376ADD268416C4A96BA7A20D89ADF7 /* SocketRocket.xcconfig */,
+				824F5D7AD86096C628BEB36C53E0CCB7 /* SocketRocket-dummy.m */,
+				AE08A7E690EC4279A57AE8144FF012B5 /* SocketRocket-prefix.pch */,
+				8E4AC034434B0C8762878F03695D6A01 /* SocketRocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		94AF6717EBD09CC130C1448EC070F459 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F013CD4971E0E9BE6510AF6D4A0430 /* Pods-Baytie */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BFAAAC5EDAB08163C2FFC6D71B01D1EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DAE62AD0D0A5456257CFBF8AA637FA5 /* RATreeView */,
+				08C937514934CCED3E409A309E5A3263 /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		337CE940D792D317A604C22121EF23F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BF6471D30D330C0F145BF74D16FF84 /* Pods-Baytie-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DE92109B1004D9C89C45193119476A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2AB7C3F0D79DB7B1F9111576DB7381 /* SocketRocket-umbrella.h in Headers */,
+				BD3DE3860078E088FF35F6F3C684A21C /* SocketRocket.h in Headers */,
+				029B3BF497124A842F7C15227AF888C2 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BB20B34C441D698DAA0011A0851516 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9B124DFB93D3C6B106C90DD4BFCBD9 /* RABatchChangeEntity.h in Headers */,
+				BF37CE96DEC30F259C7545D996B1DA71 /* RABatchChanges.h in Headers */,
+				CE3AF919D48823F3DF2FFE197940A33B /* RATableView.h in Headers */,
+				107DABF47E76C8C24B286C7468C8D2E4 /* RATreeNode.h in Headers */,
+				0062D17AB7F078987EB660F0C57880B1 /* RATreeNode_ClassExtension.h in Headers */,
+				8B5DBDCBEF9C64B20B49650E83C66862 /* RATreeNodeCollectionController.h in Headers */,
+				95B2D04A6D7603B0CF9ED2F3F1856C44 /* RATreeNodeController.h in Headers */,
+				9B9B5673D5C7B5C1807A315AE6370D34 /* RATreeNodeItem+ClassExtension.h in Headers */,
+				A8FC5026376B35B270382914A6992B96 /* RATreeNodeItem+Private.h in Headers */,
+				7BAC50B86A2D8B8C2216AD562C1493DC /* RATreeNodeItem.h in Headers */,
+				C5BA7CEAD1A1CA0AE4DA3A4CFBCE8ED5 /* RATreeView+Enums.h in Headers */,
+				305077A331177D3C83694D66714EAB0F /* RATreeView+Private.h in Headers */,
+				AAAB4172214ABB8155A13487E968AE5C /* RATreeView+RATreeNodeCollectionControllerDataSource.h in Headers */,
+				11E70D6C58381AFAE7A8FA895238EF34 /* RATreeView+TableViewDataSource.h in Headers */,
+				51D115FAC604890417329AB4B629E9F3 /* RATreeView+TableViewDelegate.h in Headers */,
+				C64A41C6B7134734AD130808C4DF7A84 /* RATreeView-umbrella.h in Headers */,
+				704696516120FAF2458D186C0AFB841F /* RATreeView.h in Headers */,
+				2CA6EA9C94E0E9B8F38C960F9A9C6695 /* RATreeView_ClassExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A9C30F016E3A3CA7936D349D08B3197 /* Pods-Baytie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502F344F6962E1FE4CD0BE75E073B40D /* Build configuration list for PBXNativeTarget "Pods-Baytie" */;
+			buildPhases = (
+				D50E2EC1C0CFBCE11D6899A0CB12F006 /* Sources */,
+				A6CB932F514E845C5E339DA8C0E3F0AB /* Frameworks */,
+				337CE940D792D317A604C22121EF23F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F2D93739CC34D9EA5F184CB378B152 /* PBXTargetDependency */,
+				217075909E00F26F4CA35F5F28BE4C56 /* PBXTargetDependency */,
+			);
+			name = "Pods-Baytie";
+			productName = "Pods-Baytie";
+			productReference = 008FFDAB4956A43DCE2AD6EA71C6F6FF /* Pods_Baytie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE285746A100A648331D19E4DC09C19F /* RATreeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20DC533BBCF2A87AC4754332D769F74 /* Build configuration list for PBXNativeTarget "RATreeView" */;
+			buildPhases = (
+				CFB603EBB0AD4EE052692F5BBAB95089 /* Sources */,
+				7684224F354FC36C052C07AA507D97CD /* Frameworks */,
+				E5BB20B34C441D698DAA0011A0851516 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RATreeView;
+			productName = RATreeView;
+			productReference = 3FE398EB2BA34BD6EEE8A30C96764F42 /* RATreeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDD96DFEDF29BFE2174B3993A8EA2148 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF477413E1062879CC5F9F0CD18F551 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				D0EE590ADB77F1B858BADAFB73F3A7BA /* Sources */,
+				EDEBAF668DF3CBA02DF63A997B5E484B /* Frameworks */,
+				39DE92109B1004D9C89C45193119476A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 34775DCD863ACA4B64EBFD00947D37B6 /* SocketRocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5419AE7A09289DEE80B38F503A43E527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9C30F016E3A3CA7936D349D08B3197 /* Pods-Baytie */,
+				AE285746A100A648331D19E4DC09C19F /* RATreeView */,
+				FDD96DFEDF29BFE2174B3993A8EA2148 /* SocketRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB603EBB0AD4EE052692F5BBAB95089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E8E6F31795B9BD310DD5ED2ABD80F1 /* RABatchChangeEntity.m in Sources */,
+				47C9E7345DC9962ABD842DC83B1368B6 /* RABatchChanges.m in Sources */,
+				1DAA88249282226D25BF6F9B11BDAE62 /* RATableView.m in Sources */,
+				42E7A08F57866318E8EB2C8FDB8640B8 /* RATreeNode.m in Sources */,
+				478F5B8D98F77FD4B02295BE8D718579 /* RATreeNodeCollectionController.m in Sources */,
+				51C3FA722315E12D2DBA7E90A717D19B /* RATreeNodeController.m in Sources */,
+				7B365475B9F5707CF5576DDE6A01E15C /* RATreeNodeItem+Private.m in Sources */,
+				CA2310208E875614914FA9F37C9FFC08 /* RATreeNodeItem.m in Sources */,
+				F00BF79A5B5DFCC766F9D0243BF28C98 /* RATreeView+Enums.m in Sources */,
+				75CDECB8D4A665251BFAEA20F76E99ED /* RATreeView+Private.m in Sources */,
+				191086FB1A2DEC24E50AC05E5C9DE2E6 /* RATreeView+RATreeNodeCollectionControllerDataSource.m in Sources */,
+				0B740A27D1C3C70A5BBD876B54F72EFC /* RATreeView+TableViewDataSource.m in Sources */,
+				ABBBAAE7A62F2F23A3B2E05F30BAB9F6 /* RATreeView+TableViewDelegate.m in Sources */,
+				ABB49FC4B0169A7417023C6ED68442E5 /* RATreeView-dummy.m in Sources */,
+				679C3FD831DEE47B153A1E861E7D8F33 /* RATreeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EE590ADB77F1B858BADAFB73F3A7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CD9C2BE358E68C7EE466A131F6318B /* SocketRocket-dummy.m in Sources */,
+				F0E4DF053D3814EA40346B7C97F5C264 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50E2EC1C0CFBCE11D6899A0CB12F006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D5BFA6127B1DD23EA58C5A71DDFE0C /* Pods-Baytie-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		217075909E00F26F4CA35F5F28BE4C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = FDD96DFEDF29BFE2174B3993A8EA2148 /* SocketRocket */;
+			targetProxy = 29F1216EC1BBF099E2C83559C8886CA3 /* PBXContainerItemProxy */;
+		};
+		84F2D93739CC34D9EA5F184CB378B152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RATreeView;
+			target = AE285746A100A648331D19E4DC09C19F /* RATreeView */;
+			targetProxy = 0E3C423AAB14BA0DCDAB90077933B95C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3D53D07B25F79F9B0EB8DCD586D6AD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE600275FBD9182B4F4F3AD215B1EC20 /* RATreeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RATreeView/RATreeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RATreeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RATreeView/RATreeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RATreeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74C439CC7C9167B6094A218D7EADFD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B376ADD268416C4A96BA7A20D89ADF7 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABB47497FE4E58AE21ECA2F3DE585213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6BCE98EE3754D740328E7C1D59A99E0 /* Pods-Baytie.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Baytie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Baytie/Pods-Baytie.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Baytie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC4753195AD36D0441AFE8B14D1FC744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE600275FBD9182B4F4F3AD215B1EC20 /* RATreeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RATreeView/RATreeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RATreeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RATreeView/RATreeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RATreeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1869D2C5B35F80C7DCE94386FF8CC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B376ADD268416C4A96BA7A20D89ADF7 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1E6AF3D3643D50D8BDE1FD79F09CD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E716F20B206187C73F11BD21081CC9ED /* Pods-Baytie.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Baytie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Baytie/Pods-Baytie.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Baytie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF477413E1062879CC5F9F0CD18F551 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1869D2C5B35F80C7DCE94386FF8CC68 /* Debug */,
+				74C439CC7C9167B6094A218D7EADFD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502F344F6962E1FE4CD0BE75E073B40D /* Build configuration list for PBXNativeTarget "Pods-Baytie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB47497FE4E58AE21ECA2F3DE585213 /* Debug */,
+				F1E6AF3D3643D50D8BDE1FD79F09CD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20DC533BBCF2A87AC4754332D769F74 /* Build configuration list for PBXNativeTarget "RATreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4753195AD36D0441AFE8B14D1FC744 /* Debug */,
+				3D53D07B25F79F9B0EB8DCD586D6AD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

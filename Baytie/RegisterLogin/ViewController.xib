@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="btnRegister" destination="ihO-os-pgJ" id="pbg-tn-Wj8"/>
+                <outlet property="btnlogin" destination="NaD-GP-Bme" id="Oom-xf-Le1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="blg-L3-dpl"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihO-os-pgJ">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Dkl-BK-8CZ"/>
+                        <constraint firstAttribute="width" constant="180" id="lTQ-su-6SO"/>
+                    </constraints>
+                    <state key="normal" image="btn_signup_green.png"/>
+                    <connections>
+                        <action selector="btSignupClick:" destination="-1" eventType="touchUpInside" id="FQw-mh-K9q"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaD-GP-Bme">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="WNx-5R-yt3"/>
+                        <constraint firstAttribute="width" constant="180" id="sy8-VB-HBB"/>
+                    </constraints>
+                    <state key="normal" image="btn_login_green.png"/>
+                    <connections>
+                        <action selector="btLoginClick:" destination="-1" eventType="touchUpInside" id="vXn-o3-8ML"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="blg-L3-dpl" secondAttribute="trailing" id="0QW-cG-sIo"/>
+                <constraint firstItem="NaD-GP-Bme" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1za-Bh-7QF"/>
+                <constraint firstItem="blg-L3-dpl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2bH-vW-KNC"/>
+                <constraint firstItem="ihO-os-pgJ" firstAttribute="top" secondItem="NaD-GP-Bme" secondAttribute="bottom" constant="8" id="4XB-Tr-97A"/>
+                <constraint firstAttribute="bottom" secondItem="ihO-os-pgJ" secondAttribute="bottom" constant="44" id="CQq-jt-OUs"/>
+                <constraint firstItem="ihO-os-pgJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Mze-uL-zWx"/>
+                <constraint firstItem="blg-L3-dpl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="lka-Hp-aBR"/>
+                <constraint firstAttribute="bottom" secondItem="blg-L3-dpl" secondAttribute="bottom" id="wIg-EQ-TcK"/>
+            </constraints>
+            <point key="canvasLocation" x="-111" y="173"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Splash.png" width="640" height="1136"/>
+        <image name="btn_login_green.png" width="400" height="100"/>
+        <image name="btn_signup_green.png" width="400" height="100"/>
+    </resources>
+</document>

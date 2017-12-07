@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermsCondViewController">
+            <connections>
+                <outlet property="scrView" destination="Wxo-8n-Gn9" id="uZJ-gD-OYd"/>
+                <outlet property="view" destination="uOO-Od-J5h" id="IPJ-ED-X4s"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" id="uOO-Od-J5h">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="6371"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="Wxo-8n-Gn9">
+                    <rect key="frame" x="0.0" y="88" width="320" height="6283"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1. The Agreement" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="py0-py-1tG">
+                            <rect key="frame" x="16" y="8" width="296" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yMz-OH-QhM">
+                            <rect key="frame" x="16" y="30" width="296" height="376"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">-To be able to use Mataam you are required to register online and then consent to the terms and use. You can also register for the service using your mobile phone number which is required for you to get registered. After that, agree to the user agreement of the site and mobile application soon after filling out details then go ahead and order for food using it.
+-Henceforth you are responsible for being able to access the website. Should anyone else access the website using your Internet connection or even access your mobile phone then be sure they are aware of the terms and also go by them. Any use of it by whatever means is per the legal agreement between you and Mataam. This refers to anyone who makes use of the application for any purpose. You are required to agree to these terms to be able to use the site and Mataam has a right to make modifications of the terms without notice. Each time you use the site it means you are in agreement with the current terms of use.
+
+These terms and conditions are for use on the Mataam website and applications on the compatible gadgets such as iphone, iPod, Android and mobile site platforms.</mutableString>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2. More about the service" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ky7-hw-Y3a">
+                            <rect key="frame" x="16" y="414" width="296" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="naD-Mm-2XR">
+                            <rect key="frame" x="16" y="436" width="296" height="743"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">-Any member who is in approval of the agreement is allowed to order from restaurants online.
+-You are then able to send orders for food delivery to restaurants that are on the website and also make reservations.
+-The website is made with a view to be a link between customers and restaurants that give the service. It is easy to use thus one can place an order by clicking a button making it easy and suitable for use.
+-The design of the website is to be a market place for ordering food online and to make reservations as well. Mataam offers service for reservations, ordering and delivery of food online.
+-In no way does Mataam have any hand in food production in the restaurants. The goal is to offer means for customers to locate restaurants that make and deliver food to their door. This is achieved through the application but the restaurants have to comply with the rules and regulations as well as standards for food preparation and sale of food.
+-It is essential for one to know that Mataam in under no obligation to verify any credentials they present. The same goes for representations, restaurant products and quality of products delivered to the. Neither is it its duty to ensure restaurants comply with the law. A customer should familiarize himself with the information provided about restaurants on the website or  from the restaurant directly. -This will help one to know how reliable they are as well as the quality they offer and if they comply with the law.
+-Under no circumstances will Mataam have to give a guarantee to the quality of food or if what’s displayed on the site is similar to the delivery. Neither does it have anything to do with the food being made in compliance with the law.
+-In some instances a restaurant may purport to prepare food by organic, macrobiotic or gluten-free standards. Mataam has no hand in determining whether this is the case.
+-Any food or service given by a restaurant that might not be healthy or is even harmful will not be accounted for by Mataam. Anything that falls short of the customer’s expectation or is improper is not its responsibility.
+-A customer should ensure they give the right address for delivery. Any mistake arising from such an error falls on the individual. Delivery and making of food is the responsibility of the restaurant that takes the order. Much as the restaurant will try to make delivery as promised the time food is delivered could also be affected by situations beyond control should we be aware of expected delay we will certainly inform the customer.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="3. Reservation, Ordering and the processing an order." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vzd-kh-Ydn">
+                            <rect key="frame" x="16" y="1187" width="296" height="42"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d7q-wj-Swj">
+                            <rect key="frame" x="16" y="1227" width="296" height="156"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">On picking your order on menu from a restaurant you can then submit it by clicking on the check-out button. Ensure the information is correct in all fields as there will be no chance to correct it after submitting. Once it is received, Mataam then goes into processing it and soon after sends an acknowledgement message on the last page. The order is then sent to the restaurant but should a customer provide an unacceptable payment they will have to go back to the previous page. In which case Mataam is under no obligation to offer the service.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4. Canceling an order" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dyu-JD-JSH">
+                            <rect key="frame" x="16" y="1391" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aQu-mg-7qy">
+                            <rect key="frame" x="16" y="1417" width="296" height="158"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">-One can cancel an order before 5 minutes  elapse after ordering on the application. 
+-We go to lengths to make sure we keep pricing and descriptions right but can cancel an order/reservation based on false information.
+-In some cases one can have their request cancelled by the restaurant even after confirmation it has been sent there. Both Mataam and the restaurants we do business with have a right to cancel before and after acceptance, in which case the customer is notified right away.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="5. Mataam member system" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2ey-3x-7Jo">
+                            <rect key="frame" x="16" y="1583" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UG3-U7-7at">
+                            <rect key="frame" x="16" y="1609" width="296" height="493"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">-On registration a user creates a user name and password of their choice. The username is unique and cannot be used by another member. The password is a secret of the user and can be altered at will. One is responsible for keeping his password safe and in no way is Mataam responsible for its misuse. We offer information in a certain area on promotions of the service and even when one’s email address is required do not share the same with other parties. To make an order, login to Mataam website using your username and password or call to request a service. We might have to share your phone number with the restaurant for delivery.
+-You guarantee that all the information you give is accurate and up-to-date and should any of it change will have us know immediately. This you can do by updating it on the website or getting in touch with us. You will not use false information on the application or use that of another person as per agreement.
+-Each person should have only one membership account and violating this might lead to termination of membership.
+-Only you should know the password to your account and should it fall into the hands of another person let us know immediately. Ensure only you have access to your application on phone. All that goes on in your account is your responsibility thus be sure to keep your information safe.
+-Some of the violations of the site include;
+Handing out threats, obscenities and abusive material
+Sending out material that is a criminal offense and could lead to civil liability or breach of the law.
+-Getting in the way of other users of the site
+Wrongful use of the site or gaining access to prohibited information by hacking or spoofing.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Protection of user information" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lMd-w6-9Fq">
+                            <rect key="frame" x="16" y="2110" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aH5-9Q-IVx">
+                            <rect key="frame" x="16" y="2136" width="296" height="90"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">All sensitive information of users is secured with a secure socket Layer (SSL) and is only availed to authorized persons. We have a confidentiality clause with the parties involved, which is to ensure optimum security of user details. No information is stored on the servers after the end of a transaction.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="User material" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cr3-nJ-yX1">
+                            <rect key="frame" x="16" y="2874" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1bk-0R-QDa">
+                            <rect key="frame" x="16" y="2900" width="296" height="408"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">Any personal material posted on the website, except that which is required in the terms and conditions, will not be guaranteed any privacy as anyone can have access and also make use of it.  Some of the material that a user should not upload on the site is;
+
+1. against local and international law
+
+2. Fraud or unlawful
+
+3. Self advertising
+
+4. Harmful programs and viruses
+
+Hacking the website is prohibited and can lead to loss of account. Any feedback about the service submitted on the site should not be;
+
+Abusive or defamatory
+Discriminatory
+Violate the rights of another user
+Breach to legal duty
+Illegal
+Impersonation of Mataam staff
+
+Any user who violates these terms will be made to pay for any damages that result. We are under an obligation to aid law enforcement to apprehend one such person.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Illegal use" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eOD-7c-NIO">
+                            <rect key="frame" x="16" y="3316" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CVJ-E9-SmH">
+                            <rect key="frame" x="16" y="3342" width="296" height="520"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">The application is for use in activities intended to allow ordering and delivery of food. Anything out of that by a user that promotes personal gain that is not in line with this could lead to suspension or closure of one’s account. Such a user could be further prohibited from using the sight anymore. Some of the activities that are barred include;
+
+- Advertising on the site for personal business
+- Fraud and other criminal acts
+- Harvesting information on the site for compilation of a database without permission from the site.
+- Access to email addresses of other users so as to send spam to them.
+- Illegally linking to the site
+- Sending out junk mail
+- Data gathering and mining
+- Overloading the website through wrongful use
+- Impersonation
+- Using another person’s login or phone
+- Use of information from the site to intimidate another person
+- Stealing ideas from the site with an aim of doing similar business
+- Interfering in any way with the software in user at the website
+- Illegal bypass to allow restricted access to any of the information therein.
+- Harassment of Mataam staff through any form of communication
+- Personal gain from a third party through the use of the services on the site
+- Interfering with proprietary rights of Mataam.
+- Using the site in an unlawful way that is against the regulations set.
+- Any activity that is not allowed on the site and applications.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Rights of Mataam" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hsK-gd-XPa">
+                            <rect key="frame" x="16" y="3870" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kmL-vB-Hfq">
+                            <rect key="frame" x="16" y="3896" width="296" height="520"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">Mataam has the right to stop operation at any time.
+
+- Mataam is not answerable to users who have had their accounts suspended for unlawful use, whether temporarily or entirely.
+- Mataam reserves the right to allow the display and approval of an account after a user fills out all the necessary details and adds a mobile phone number if it deems it fit. This might be for the period it deems fit .
+- Mataam does not offer a guarantee of timely service from restaurants neither does it offer assurance of reliability on quality as expected.
+- We may create back-up for messages from users when using the service but are under no obligation to any such back-up or delete procedures.
+- Copyright for possession of information and software for use on the site either from within or attained elsewhere.
+- What is available on the menu of the restaurants listed on Mataam is not the responsibility of Mataam but the restaurant offering service. Under no circumstances is Mataam to be held responsible for lack of any food item or reservation.
+- Any information posted by members on the bulletin can be reused by Mataam without claim from the poster for any form of royalty whatsoever.
+- Should dispute arise regarding change of pricing of products the mistake may be corrected by cancelling the order. Restaurants have an obligation to update any such changes regarding products.
+- Addition and amendment of the agreement terms can be done by Mataam as well as add on to the existing information on the site.
+- The site may require maintenance every so often in which case we will do our best to notify members way before. This cannot be however guaranteed and we may also make changes or cease service any time.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Conditions for reviews;" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3oe-KQ-0mg">
+                            <rect key="frame" x="16" y="4424" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rnd-Xo-Neg">
+                            <rect key="frame" x="16" y="4450" width="296" height="381"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">Mataam only approves reviews that are;
+
+In line with restaurant business and well informed of it
+
+Content that is suitable. It is not a requirement for Mataam to approve all reviews. Rejection could result from;
+
+- Content that is not suitable on the site
+- Foul and profane language in any of the social sections of the sites.
+- Any form of discrimination on the basis of say race, gender or disability.
+- Mention of unlawful acts or anything touching on values of a society.
+- Reviews from competitors meant to paint a negative picture on Mataam.
+- Violation of health code
+- Irrelevant and backdated information.
+
+We do not endorse or take up responsibility of reviews, together with our partners and any loss incurred as a result does not call for accountability from us. This includes use of information on the site.
+
+Reviews may be modified and used anywhere else but we are not obligated to pay for the use of any of them.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Restrictions for use" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oUq-GG-lSq">
+                            <rect key="frame" x="16" y="4839" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MI9-h5-oX5">
+                            <rect key="frame" x="16" y="4865" width="296" height="255"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">- Copying and reusing information contained on the website could lead to compensation to the site and a Mataam will use all means to ensure this does not happen.
+- In a case where a member orders a meal and is not available to receive it at the given address then it will not be delivered anywhere else. The member then takes up responsibility of ordering a meal from an invalid address.
+- When a product is returned to the restaurant, terms of return are applied. These are solely between the customer and the restaurant and Mataam will not be party to the dispute.
+- When Refund is necessary, we issue a full refund for food not delivered or wrong delivery. Partial refunds may be given for incomplete orders but in all cases we do our best to ensure such an issue is resolved as amicably as possible.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Payment for services" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mqk-Ct-C5m">
+                            <rect key="frame" x="16" y="5128" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gQB-Hl-RJM">
+                            <rect key="frame" x="16" y="5154" width="296" height="130"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">After a customer places an order they the restaurant takes it up as an agreement between the two. Cash delivery is made upon delivery of the food including any other service charge. Reservations can be charged to one’s credit card too. For customers who prefer to pay by credit card, charges of the food or reservations and any additional charges are processed by Mataam. These will reflect on the order summary on the application.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Credit/debit card payments" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hep-SA-N9e">
+                            <rect key="frame" x="16" y="5292" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MYg-kh-5ys">
+                            <rect key="frame" x="16" y="5318" width="296" height="255"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">- A customer meets any additional charge from the restaurant for any special or general request going by the terms of the restaurant.
+- Should delivery of an order go beyond what the restaurant promised then you can cancel it and get a refund.
+- After you place an order you will be able to cancel it up to 5 minutes later
+- For refund on credit/Debit cards, it could take up to 2 days to complete. A customer will get confirmation of refund advice when that happens so they can follow it up with their bank.
+It is important for customers who use credit/Debit cards to be reachable on phone.
+- Only credit/Debit cards belonging to the owner may be used to place an order or make a reservation online. Mataam requires permission for the use of someone else’s card to complete the process.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Governing law" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hVg-3f-FxR">
+                            <rect key="frame" x="16" y="5581" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oh7-5e-Nef">
+                            <rect key="frame" x="16" y="5607" width="296" height="46"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">Terms for use of Mataam website are governed by the law of Kuwait and any disputes arising are subject for mitigation in a court of law.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enforcement" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="78t-N2-IN9">
+                            <rect key="frame" x="16" y="5661" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pAU-An-sQh">
+                            <rect key="frame" x="16" y="5687" width="296" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">Should any part of the terms herein be unlawful or not enforceable then it will not be part of these terms of use. It will not thus affect the legality of the other provisions of the Terms of Use.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Licensing" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pDZ-RP-3yo">
+                            <rect key="frame" x="16" y="5755" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oTl-8b-ETR">
+                            <rect key="frame" x="16" y="5781" width="296" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">We reserve permission to allow use of the application for any purpose going by our terms of use and may annul it at any time. Only reason is for personal as well as non-commercial use.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Property rights" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fOZ-7I-iZN">
+                            <rect key="frame" x="16" y="5849" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uPr-Iy-TkD">
+                            <rect key="frame" x="16" y="5875" width="296" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">Information on Mataam application and all that pertains to it belongs to Mataam and is issue to copyright and additional intellectual property rights under state of Kuwait and international conventions. This includes source code, databases, functionality, software, website designs, audio, video, text, photographs and graphics.</string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Duty of a member" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="in1-PC-5BQ">
+                            <rect key="frame" x="16" y="2234" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kd1-bJ-pqI">
+                            <rect key="frame" x="16" y="2260" width="296" height="606"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">When using Mataam a member is in agreement that;
+
+-Personal information is right and undertakes responsibility of loss from any wrongful information. Should that happen, one risks having their membership terminated.
+-All documents that are uploaded by the user on Mataam website including personal information is the responsibility of the user without any direct link to the site. We do not have any liability to such files and will only use them for the purpose stated to offer the service. No change of the software and general use of the website in unlawful ways whatsoever. Any communication on the site should only be about the service for which the user has signed up for and should be in conformity with the laws of Kuwait.
+-Any information and material given by a user on the site is their responsibility thereof and should any of it be lost from their computer a user has no right to ask Mataam to take up liability. Neither should a customer use the site for advertisement without lawful consent from us.
+-Continuous monitoring of the system
+Mataam may use system for commercial use
+The use of the system is not to send out irrelevant mails unrelated to the business. Each user is to be held responsible for all that happens in their account at all times. A service fee on delivery of food should be paid by the user failure to which will deter delivery. No duplication of contents on site for unlawful use and one may not use the account of another person without consent. Review of the site will only be with the consent and not for commercial use.
+-In no way get in the way of the running of the site by security violation or anything affiliated to it.
+-Adults have to give permission to minors to use the application. A general understanding of this requirement should be made available to the parent or guardian beforehand.
+
+Any credit card used on the platform should be of the real owner. In the case one uses another person’s card then permission needs to be granted to them.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Disclaimer" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dfo-It-xAg">
+                            <rect key="frame" x="16" y="5983" width="296" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="54" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C24-nS-vaE">
+                            <rect key="frame" x="16" y="6009" width="296" height="274"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mutableString key="text">THE INFORMATION, CONTENT, PRODUCTS, SERVICES, AND MATERIALS AVAILABLE THROUGH THE SITE (WHETHER PROVIDED BY MATAAM YOU, OTHER USERS OR OTHER AFFILIATES/THIRD PARTIES), INCLUDING WITHOUT LIMITATION, FOOD/BEVERAGE ORDERS, SUBMISSIONS, TEXT, PHOTOS, GRAPHICS, AUDIO FILES, VIDEO, AND LINKS, ARE PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY LAW, MATAAM DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT, FREEDOM FROM COMPUTER VIRUS, AND IMPLIED WARRANTIES ARISING FROM COURSE OF DEALING OR COURSE OF PERFORMANCE</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </scrollView>
+                <view contentMode="scaleToFill" id="gLq-4B-zVa">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mha-O1-h02">
+                            <rect key="frame" x="15" y="37" width="12" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="btn_back_green.png"/>
+                            <connections>
+                                <action selector="onBackMenu:" destination="-1" eventType="touchUpInside" id="6Hu-Yt-wNg"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms and Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vRl-dO-u5S">
+                            <rect key="frame" x="41" y="33" width="215" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="0.41960784309999999" green="0.74509803919999995" blue="0.1058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zo5-Il-YEM">
+                            <rect key="frame" x="15" y="35" width="228" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="onBackMenu:" destination="-1" eventType="touchUpInside" id="BBs-wW-5zS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-75" y="2628.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_back_green.png" width="40" height="80"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_0.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

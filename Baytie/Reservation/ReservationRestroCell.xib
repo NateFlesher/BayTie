@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReservationRestroItem" rowHeight="90" id="ycU-at-3T4" customClass="ReservationRestroCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ycU-at-3T4" id="Cpm-oI-RRB">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tableItem_swip_img_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="rpn-RK-hQv">
+                        <rect key="frame" x="4" y="5" width="312" height="85"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tableitem_flat_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="yJ9-nw-Jyc">
+                        <rect key="frame" x="4" y="5" width="310" height="85"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rating_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dri-tr-cpa">
+                        <rect key="frame" x="129" y="39" width="61" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="featured_red.png" translatesAutoresizingMaskIntoConstraints="NO" id="reF-LC-ZHU">
+                        <rect key="frame" x="224" y="38" width="15" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="promo_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="dId-VI-P7c">
+                        <rect key="frame" x="249" y="38" width="20" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Restaurant Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9VF-eV-OiF">
+                        <rect key="frame" x="121" y="13" width="189" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6xd-Aj-Y6B">
+                        <rect key="frame" x="14" y="5" width="102" height="83"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Busy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z33-Az-n6e">
+                                <rect key="frame" x="21" y="3" width="42" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jn8-bM-wli">
+                                <rect key="frame" x="5" y="20" width="91" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="restro_detault.png" translatesAutoresizingMaskIntoConstraints="NO" id="el6-am-1aY">
+                                <rect key="frame" x="6" y="21" width="89" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="status_open_red.png" translatesAutoresizingMaskIntoConstraints="NO" id="dOx-dX-CRf">
+                                <rect key="frame" x="5" y="6" width="9" height="9"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOs-sZ-zj5">
+                        <rect key="frame" x="127" y="62" width="30" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <state key="normal" title="00:00" backgroundImage="slot_bk.png">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="onClickSlot:" destination="ycU-at-3T4" eventType="touchUpInside" id="bOL-DN-AMg"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDN-hO-pMF">
+                        <rect key="frame" x="165" y="62" width="30" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <state key="normal" title="00:00" backgroundImage="slot_bk.png">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="onClickSlot:" destination="ycU-at-3T4" eventType="touchUpInside" id="tZ4-Gk-9v4"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsd-pQ-xs0">
+                        <rect key="frame" x="201" y="62" width="30" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <state key="normal" title="00:00" backgroundImage="slot_bk.png">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="onClickSlot:" destination="ycU-at-3T4" eventType="touchUpInside" id="WZb-38-LWd"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGF-Db-Ehu">
+                        <rect key="frame" x="239" y="62" width="30" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <state key="normal" title="00:00" backgroundImage="slot_bk.png">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="onClickSlot:" destination="ycU-at-3T4" eventType="touchUpInside" id="Vh1-Ei-ao5"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3GX-qM-Zvl">
+                        <rect key="frame" x="277" y="62" width="30" height="12"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <state key="normal" title="00:00" backgroundImage="slot_bk.png">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="onClickSlot:" destination="ycU-at-3T4" eventType="touchUpInside" id="fWc-aL-6dL"/>
+                        </connections>
+                    </button>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g9k-Jp-Dii">
+                        <rect key="frame" x="121" y="5" width="194" height="85"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tableItem_swip_img_green.png" translatesAutoresizingMaskIntoConstraints="NO" id="xAZ-r3-3RQ">
+                                <rect key="frame" x="0.0" y="0.0" width="194" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HzL-aa-kPM">
+                                <rect key="frame" x="85" y="60" width="25" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_ok.png"/>
+                                <connections>
+                                    <action selector="onRating:" destination="ycU-at-3T4" eventType="touchUpInside" id="r5K-lM-dT9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Like it? Rate it!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNe-eh-uHR">
+                                <rect key="frame" x="48" y="8" width="99" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XpH-ex-KBU">
+                                <rect key="frame" x="26" y="31" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blank_star.png"/>
+                                <state key="selected" image="fill_star.png"/>
+                                <connections>
+                                    <action selector="onStar1:" destination="ycU-at-3T4" eventType="touchUpInside" id="Ngo-CW-fDQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvR-Ph-fXS">
+                                <rect key="frame" x="56" y="31" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blank_star.png"/>
+                                <state key="selected" image="fill_star.png"/>
+                                <connections>
+                                    <action selector="onStar2:" destination="ycU-at-3T4" eventType="touchUpInside" id="3gm-Zn-8uV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfE-rb-laf">
+                                <rect key="frame" x="86" y="31" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blank_star.png"/>
+                                <state key="selected" image="fill_star.png"/>
+                                <connections>
+                                    <action selector="onStar3:" destination="ycU-at-3T4" eventType="touchUpInside" id="BdH-17-p9d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vF-Ax-bqI">
+                                <rect key="frame" x="116" y="31" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blank_star.png"/>
+                                <state key="selected" image="fill_star.png"/>
+                                <connections>
+                                    <action selector="onStar4:" destination="ycU-at-3T4" eventType="touchUpInside" id="rH7-5d-9pY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gck-UW-GXW">
+                                <rect key="frame" x="146" y="31" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blank_star.png"/>
+                                <state key="selected" image="fill_star.png"/>
+                                <connections>
+                                    <action selector="onStar5:" destination="ycU-at-3T4" eventType="touchUpInside" id="o58-dt-IeT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="featureImage" destination="reF-LC-ZHU" id="vwQ-IP-7lj"/>
+                <outlet property="lblRestroImage" destination="9VF-eV-OiF" id="KM0-zH-Rmc"/>
+                <outlet property="lblStatus" destination="Z33-Az-n6e" id="P2l-Qe-BJH"/>
+                <outlet property="promoImage" destination="dId-VI-P7c" id="r5Z-m8-Mac"/>
+                <outlet property="ratingImage" destination="Dri-tr-cpa" id="CU5-Kd-F5y"/>
+                <outlet property="ratingView" destination="g9k-Jp-Dii" id="5Bl-YI-RpS"/>
+                <outlet property="restroLogoImage" destination="el6-am-1aY" id="vup-KR-ltu"/>
+                <outlet property="slot1" destination="mOs-sZ-zj5" id="92b-4b-JSi"/>
+                <outlet property="slot2" destination="ZDN-hO-pMF" id="NXM-yT-94u"/>
+                <outlet property="slot3" destination="Zsd-pQ-xs0" id="7sW-jl-7BI"/>
+                <outlet property="slot4" destination="uGF-Db-Ehu" id="VkC-lP-Q44"/>
+                <outlet property="slot5" destination="3GX-qM-Zvl" id="rI4-IS-rGu"/>
+                <outlet property="star1" destination="XpH-ex-KBU" id="JqD-MR-M7g"/>
+                <outlet property="star2" destination="jvR-Ph-fXS" id="9Er-qP-FZn"/>
+                <outlet property="star3" destination="AfE-rb-laf" id="SL0-GU-6Pu"/>
+                <outlet property="star4" destination="1vF-Ax-bqI" id="Dsi-NK-P1m"/>
+                <outlet property="star5" destination="Gck-UW-GXW" id="brB-qd-GrB"/>
+                <outlet property="statusImage" destination="dOx-dX-CRf" id="dbb-0H-YVt"/>
+            </connections>
+            <point key="canvasLocation" x="-110" y="-177"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="blank_star.png" width="50" height="50"/>
+        <image name="btn_ok.png" width="50" height="30"/>
+        <image name="featured_red.png" width="50" height="50"/>
+        <image name="fill_star.png" width="50" height="50"/>
+        <image name="promo_blue.png" width="80" height="60"/>
+        <image name="rating_3.png" width="166" height="30"/>
+        <image name="restro_detault.png" width="280" height="200"/>
+        <image name="slot_bk.png" width="101" height="42"/>
+        <image name="status_open_red.png" width="50" height="50"/>
+        <image name="tableItem_swip_img_green.png" width="400" height="300"/>
+        <image name="tableitem_flat_img.png" width="400" height="300"/>
+    </resources>
+</document>

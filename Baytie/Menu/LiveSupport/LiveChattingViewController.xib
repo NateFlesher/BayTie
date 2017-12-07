@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiveChattingViewController">
+            <connections>
+                <outlet property="bubbleTableView" destination="Kee-D5-sbG" id="daa-1S-5OT"/>
+                <outlet property="keyboardHegith" destination="Orx-aJ-CjU" id="BzI-xE-FQN"/>
+                <outlet property="navView" destination="psA-j4-QBN" id="BA3-qx-tzH"/>
+                <outlet property="noConnectionView" destination="7fc-jA-a1Y" id="McJ-Lb-ujo"/>
+                <outlet property="txtMessage" destination="ZRT-nH-h8S" id="tlR-Dd-VZr"/>
+                <outlet property="view" destination="baZ-Sz-AHh" id="VmR-eY-VSW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="baZ-Sz-AHh">
+            <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kee-D5-sbG" customClass="UIBubbleTableView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="444"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kK5-9y-iQH">
+                    <rect key="frame" x="0.0" y="444" width="320" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGo-yI-UIZ">
+                            <rect key="frame" x="240" y="8" width="72" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="btn_send_livechat.png"/>
+                            <connections>
+                                <action selector="onMessageSend:" destination="-1" eventType="touchUpInside" id="dQm-Ef-X0l"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chat_message_bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="iZG-mr-TVy">
+                            <rect key="frame" x="8" y="8" width="224" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZRT-nH-h8S">
+                            <rect key="frame" x="21" y="14" width="202" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.93000000000000005" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="qZm-L3-h2m"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7fc-jA-a1Y">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noconection_png.png" translatesAutoresizingMaskIntoConstraints="NO" id="H0d-Qx-sx4">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k94-2r-ZNS">
+                            <rect key="frame" x="74" y="309" width="180" height="163"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="163" id="JCU-yQ-r4H"/>
+                                <constraint firstAttribute="width" constant="180" id="RvI-bF-fNz"/>
+                            </constraints>
+                            <connections>
+                                <action selector="onRetryConnect:" destination="-1" eventType="touchUpInside" id="cva-iZ-KtQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.30835295376712329" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="H0d-Qx-sx4" secondAttribute="trailing" id="Ms7-qh-9Z8"/>
+                        <constraint firstItem="H0d-Qx-sx4" firstAttribute="leading" secondItem="7fc-jA-a1Y" secondAttribute="leading" id="Q6C-57-0yB"/>
+                        <constraint firstItem="k94-2r-ZNS" firstAttribute="centerX" secondItem="7fc-jA-a1Y" secondAttribute="centerX" constant="4" id="YrY-r1-iYw"/>
+                        <constraint firstAttribute="bottom" secondItem="H0d-Qx-sx4" secondAttribute="bottom" id="lr7-He-d5I"/>
+                        <constraint firstItem="H0d-Qx-sx4" firstAttribute="top" secondItem="7fc-jA-a1Y" secondAttribute="top" id="qjd-nn-xd0"/>
+                        <constraint firstAttribute="bottom" secondItem="k94-2r-ZNS" secondAttribute="bottom" constant="32" id="ssY-5k-mKT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Kee-D5-sbG" firstAttribute="top" secondItem="baZ-Sz-AHh" secondAttribute="top" id="35v-Jn-Tqk"/>
+                <constraint firstAttribute="trailing" secondItem="Kee-D5-sbG" secondAttribute="trailing" id="3SB-Ec-dxL"/>
+                <constraint firstAttribute="trailing" secondItem="7fc-jA-a1Y" secondAttribute="trailing" id="BXc-cK-foO"/>
+                <constraint firstAttribute="bottom" secondItem="7fc-jA-a1Y" secondAttribute="bottom" id="Ibh-Pn-gVK"/>
+                <constraint firstItem="7fc-jA-a1Y" firstAttribute="top" secondItem="baZ-Sz-AHh" secondAttribute="top" id="JKl-yw-LTB"/>
+                <constraint firstAttribute="bottom" secondItem="kK5-9y-iQH" secondAttribute="bottom" id="Orx-aJ-CjU"/>
+                <constraint firstAttribute="trailing" secondItem="kK5-9y-iQH" secondAttribute="trailing" id="PUH-ZA-5PE"/>
+                <constraint firstItem="kK5-9y-iQH" firstAttribute="top" secondItem="Kee-D5-sbG" secondAttribute="bottom" id="Pug-3C-eCA"/>
+                <constraint firstItem="Kee-D5-sbG" firstAttribute="leading" secondItem="baZ-Sz-AHh" secondAttribute="leading" id="VcZ-yH-YJd"/>
+                <constraint firstItem="kK5-9y-iQH" firstAttribute="leading" secondItem="baZ-Sz-AHh" secondAttribute="leading" id="Vhr-Xz-Xtj"/>
+                <constraint firstItem="7fc-jA-a1Y" firstAttribute="leading" secondItem="baZ-Sz-AHh" secondAttribute="leading" id="Wwk-ML-OoF"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="25" y="-263"/>
+        </view>
+        <view contentMode="scaleToFill" id="psA-j4-QBN">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0k7-23-TIO">
+                    <rect key="frame" x="10" y="9" width="12" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="btn_back_white.png"/>
+                    <connections>
+                        <action selector="onBackMenu:" destination="-1" eventType="touchUpInside" id="gpb-HY-tf8"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LIVE CHAT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0T-li-aW5">
+                    <rect key="frame" x="101" y="14" width="118" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9X2-4f-VGZ">
+                    <rect key="frame" x="10" y="9" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="onBackMenu:" destination="-1" eventType="touchUpInside" id="Qns-dR-yqE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.41960784309999999" green="0.74509803919999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="25" y="-45"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_back_white.png" width="40" height="80"/>
+        <image name="btn_send_livechat.png" width="232" height="131"/>
+        <image name="chat_message_bk.png" width="898" height="131"/>
+        <image name="noconection_png.png" width="640" height="1136"/>
+    </resources>
+</document>

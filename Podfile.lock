@@ -1,0 +1,15 @@
+PODS:
+  - RATreeView (2.1.2)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - RATreeView
+  - SocketRocket
+
+SPEC CHECKSUMS:
+  RATreeView: 380cde0090cfde21dc6ac29137f49d3b768fdd28
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 86bfd9f1285f82799f2e450b2cbd17efa0cab1ca
+
+COCOAPODS: 1.2.0.beta.1
