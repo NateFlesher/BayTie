@@ -1,6 +1,12 @@
 # BayTie 
 ==============
 
+## Requirements
+
+- iOS 9.0+
+- Xcode 8
+
+## Screenshots
 <img src="https://github.com/NateAHL123/BayTie/blob/master/Screenshots/Intro_android.png" width="49%">
 <img src="https://github.com/NateAHL123/BayTie/blob/master/Screenshots/catering_android.png" width="49%">
 <img src="https://github.com/NateAHL123/BayTie/blob/master/Screenshots/delivery_android.png" width="49%">
